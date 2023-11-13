@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.whatsapp-bar {
+  display: flex;
+  flex-direction: column; 
+  background-color: #f1f1f1;
+  color: black;
+  width: 300px; 
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto Serif', serif;
+}
+
+.add-contact-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  color: #fff;
+  border-radius: 4px;
+  width: 200px;
+  height: 40px;
+}
+
+
+.add-contact-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid black ; 
+}
+.contact:hover {
+  background-color: #1DB954;
+  color: white;
+}
+
+.contact img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact h3 {
+  margin: 0;
+  font-size: 16px;
+}
+.contact h3 svg {
+  text-align: end;
+align-items: end;
+  
+}
+
+.contact p {
+  margin: 0;
+  font-size: 14px;
+}
+.contact p svg {
+  color: #1DB954;
+}
+div.content {
+  margin-left: 300px;
+  padding: 1px 16px;
+  height: 1000px;
+  text-align: center;
+}
+div.content img {
+  border-radius: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding-top: 5%;
+}
+
+.picture-circle {
+  width:50px;
+  height:50px;
+  border-radius:25px;    
+}
